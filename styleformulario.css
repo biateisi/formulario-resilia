@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:#F8EFBA;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: rgb(255, 208, 0);
+    font-family: 'Nunito', sans-serif;
+    border-radius: 25px;
+    text-align: center;
+    height: 325px;
+    width: 426px;
+}
+
+button {
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+button:hover {
+    background-color: dimgray;
+    color: ghostwhite;
+}
+
+input{
+    padding: 5px;
+    border-radius: 35px;
+}
+
+#resilia-logo {
+    width: 400px;
+    height: auto;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+}
+
+#dev {
+    width: 600px;
+}
